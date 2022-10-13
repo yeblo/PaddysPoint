@@ -1,0 +1,380 @@
+/* @font-face {
+  font-family: 'fa-brands';
+  src: url(../public/assets/fonts/fa-brands-400.ttf);
+}
+@font-face {
+  font-family: 'fa-light';
+  src: url(../public/assets/fonts/fa-light-300.ttf);
+}
+@font-face {
+  font-family: 'fa-regular';
+  src: url(../public/assets/fonts/fa-regular-400.ttf);
+}
+
+@font-face {
+  font-family: 'fa-solid';
+  src: url(../public/assets/fonts/fa-solid-900.ttf);
+} */
+
+
+
+
+
+:root {
+  --black: 
+rgba(0, 0, 0, 1);
+  --midnight-moss: 
+rgba(6, 6, 6, 1);
+  --cod-gray: 
+rgba(12, 12, 12, 1);
+  --eerie-black: 
+rgba(31, 31, 31, 1);
+  --log-cabin: 
+rgba(35, 34, 34, 0.749);
+  --thunder: 
+rgba(46, 46, 46, 1);
+  --rock: 
+rgba(83, 59, 52, 1);
+  --blue-jeans: 
+rgba(85, 172, 238, 1);
+  --chicago: 
+rgba(88, 88, 88, 1);
+  --dove-gray: 
+rgba(112, 112, 112, 1);
+  --sushi: 
+rgba(113, 180, 66, 1);
+  --conifer: 
+rgba(146, 219, 95, 1);
+  --mountain-mist: 
+rgba(148, 148, 148, 1);
+  --crimson: 
+rgba(223, 26, 34, 1);
+  --wild-sand: 
+rgba(244, 244, 244, 1);
+  --alabaster: 
+rgba(250, 250, 250, 1);
+  --peach-schnapps: 
+rgba(255, 220, 220, 1);
+  --white: 
+rgba(255, 255, 255, 1);
+
+  --font-size-xxs: 20px;
+  --font-size-xs: 22px;
+  --font-size-s: 23px;
+  --font-size-m: 24px;
+  --font-size-l: 25px;
+  --font-size-xl: 26px;
+  --font-size-xl: 33px;
+  --font-size-xxl: 30px;
+  --font-size-xs2: 21px;
+  --font-size-xl2: 35px;
+  --font-size-xxl2: 50px;
+
+  --font-family-cambay: "Cambay";
+  --font-family-pt_sans: "PT Sans";
+}
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Cambay:400,700,700italic|PT+Sans:400,700");
+
+
+/* @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap"); */
+html {
+  scroll-behavior: smooth; }
+
+body {
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  line-height: 26px;
+  background-color: #fff; }
+
+
+.App {
+  text-align: center;
+  
+  /* font-family: fa-solid !important; */
+  font-weight: 500;
+}
+
+/* Default height for small devices */
+#intro-example {
+  height: 400px;
+}
+
+/* Height for devices larger than 992px */
+@media (min-width: 992px) {
+  #intro-example {
+    height: 600px;
+  }
+}
+
+/* for navigation page */
+.nav-font{
+  font-family: var(--font-family-cambay);
+  font-weight: 700;
+}
+.order-btn{
+  border: '1px solid ';
+  border-radius: 20px;
+  color: white !important;
+  background-color : #00B74A;
+  font-family: "Barlow", sans-serif;
+  display:inline-block;
+  
+}
+.order-btn:hover {
+  font-family: var(--font-family-cambay);
+  background-color: white;
+  color: #00B74A !important;
+  border: 1px solid #00B74A;
+}
+
+/* .nav-link:hover{
+  font-weight: 700;
+} */
+.nav-link:hover{
+  border-bottom: 2px solid #00B74A;
+  border-bottom-left-radius: 6px ;
+  border-bottom-right-radius: 6px ;
+  box-shadow: inset;
+}
+
+/* for header page */
+.bg-slider{
+  background-image: url("http://localhost:3000/assets/images/Background.png");
+}
+
+.slide__title{
+  font-family: var(--font-family-pt_sans);
+  font-size : 70px;
+  color: #3f701c;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 100px;
+}
+
+.slide__sub__title{
+  color: #d10911;
+  font-family: var(--font-family-cambay);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 25px;
+  min-height: 51px;
+  white-space: nowrap
+}
+
+.hero-btn{
+  border-radius: 10px;
+  background-color: var(--sushi);
+  /* padding: 2px 65px; */
+  min-width: 235px;
+}
+
+.hero-btn:hover{
+  background-color: #df1a22;
+}
+
+.about-us {
+  color: var(--white);
+  font-family: var(--font-family-cambay);
+  font-size: var(--font-size-xxs);
+  font-weight: 700;
+  letter-spacing: 0;
+  /* line-height: 25px; */
+  white-space: nowrap;
+}
+
+.discover-now {
+  color: var(--white);
+  font-family: var(--font-family-cambay);
+  font-size: var(--font-size-xxs);
+  font-weight: 700;
+  letter-spacing: 0;
+  /* line-height: 25px; */
+  white-space: nowrap;
+}
+
+/* for-explore-in home page */
+
+
+
+.explore {
+  letter-spacing: 0;
+  line-height: 25px;
+  min-height: 28px;
+  white-space: nowrap;
+}
+.ptsans-bold-thunder-20px {
+  color: var(--thunder);
+  font-family: var(--font-family-pt_sans);
+  font-size: var(--font-size-xxs);
+  font-weight: 700;
+  font-style: normal;
+}
+.explore-title{
+  color: var(--sushi);
+  font-family: var(--font-family-pt_sans);
+  font-size: var(--font-size-xxl2);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 25px;
+  min-height: 67px;
+  white-space: nowrap;
+}
+
+
+.explore-btn{
+  background-color: #df1a22;
+  color: var(--white);
+  font-family: var(--font-family-cambay);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  letter-spacing: 0;;
+  white-space: nowrap;
+}
+
+.explore-btn:hover{
+  background-color: var(--sushi) !important;
+}
+
+
+/* for footer */
+.footer-bg{
+  background-color: #f4f4f4;
+  
+}
+
+.cambay-bold-thunder-25px {
+  color: var(--thunder);
+  font-family: var(--font-family-cambay);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ptsans-normal-thunder-20px {
+  color: var(--thunder) !important;
+  font-family: var(--font-family-pt_sans);
+  font-size: var(--font-size-xxs);
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* for About Page */
+.bg-image{
+  background-image: url("http://localhost:3000/assets/images/aboutus-header.png");
+  height: 400px;
+}
+
+
+.about-para{
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.ptsans-normal-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-pt_sans);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.ptsans-bold-white-50px {
+  color: var(--white);
+  font-family: var(--font-family-pt_sans);
+  font-size: 50px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ptsans-bold-conifer-109px {
+  color: var(--conifer) !important;
+  font-family: var(--font-family-pt_sans);
+  font-size: 54px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ptsans-bold-sushi-33px{
+  color: var(--sushi);
+  font-family: var(--font-family-pt_sans);
+  font-size: 33px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.about-food{
+  border-radius: 35px;
+  height: 470px;
+  object-fit: cover;
+  width: 672px;
+}
+
+.our-produce-is-organ {
+  letter-spacing: 0;
+  line-height: 40px;
+  min-height: 473px;
+  width: 689px;
+}
+
+.about-food2 {
+  height: 652px;
+  object-fit: cover;
+  width: 604px;
+}
+
+.ptsans-normal-black-24px-2 {
+  color: var(--black);
+  font-family: var(--font-family-pt_sans);
+  font-size: var(--font-size-m);
+}
+
+
+/* for location page */
+.ptsans-bold-sushi-50px {
+  color: var(--sushi);
+  font-family: var(--font-family-pt_sans);
+  font-size: 50px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.location-title {
+  letter-spacing: 0;
+  line-height: 25px;
+  min-height: 67px;
+  white-space: nowrap;
+}
+
+.cambay-bold-thunder-35px {
+  color: var(--thunder);
+  font-family: var(--font-family-cambay);
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* for menu page */
+.menu-title{
+  color: var(--sushi);
+  font-family: var(--font-family-pt_sans);
+  font-size: 50px;
+  font-weight: 700;
+  font-style: normal;
+}
