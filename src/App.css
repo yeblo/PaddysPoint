@@ -369,6 +369,11 @@ a, a:hover, a:focus, a:active {
   font-style: normal;
 }
 
+.grey-container{
+  background-color: #f6f9f9;
+  padding: 30px;
+  border-radius: 10px;
+}
 
 /* for menu page */
 .menu-title{
@@ -378,3 +383,5 @@ a, a:hover, a:focus, a:active {
   font-weight: 700;
   font-style: normal;
 }
+
+
