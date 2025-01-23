@@ -17,7 +17,7 @@ export default function Home() {
                                     <div className="slider__content">
                                         <h1 className="slide__title">Healthy. Fresh. <br /> Delicious.</h1>
                                         <h1 className="slide__sub__title"> (No Sugar Added) </h1>
-                                        <p>Sumptuous, filling, and temptingly healthy. Our Biona Organic Granola <br /> with Wild Berries is just the thing to get you out of bed.</p>
+                                        <p>Fuel your body with nature's best—pure, organic, and full of vitality. Sip health, taste happiness! <br /></p>
                                     </div>
                                     <MDBBtn href='/menu' className='hero-btn mt-3 me-3 discover-now'>Discover now</MDBBtn>
                                     <MDBBtn href='/about' className="hero-btn mt-3 about-us">About us</MDBBtn>

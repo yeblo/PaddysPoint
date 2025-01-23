@@ -70,7 +70,7 @@ export default function Explore() {
                         <MDBCard className='my-3'>
                             <MDBCardImage
                                 className='img-fluid d-block'
-                                src="/assets/images/jollof.png"
+                                src="/assets/images/special/soursop.png"
                                 alt='...'
                                 position='top'
                             />
@@ -83,7 +83,7 @@ export default function Explore() {
                         <MDBCard className='my-3'>
                             <MDBCardImage
                                 className='img-fluid d-block'
-                                src="/assets/images/suya.png"
+                                src="/assets/images/special/green_nw.jpg"
                                 alt='...'
                                 position='top'
                             />
@@ -96,7 +96,7 @@ export default function Explore() {
                         <MDBCard className='my-3'>
                             <MDBCardImage
                                 className='img-fluid d-block'
-                                src= "/assets/images/fries.png"
+                                src= "/assets/images/special/rejuvenated_new_gallon.jpg"
                                 alt='...'
                                 position='top'
                             />
