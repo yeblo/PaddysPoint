@@ -42,59 +42,56 @@ export default function Product() {
               Special Juices
             </MDBTabsLink>
           </MDBTabsItem>
-          {/* <MDBTabsItem>
+          <MDBTabsItem>
             <MDBTabsLink onClick={() => handleBasicClick('tab1')} active={basicActive === 'tab1'}>
               Yogurt
             </MDBTabsLink>
-          </MDBTabsItem> */}
-          {/* <MDBTabsItem>
+          </MDBTabsItem>
+          <MDBTabsItem>
             <MDBTabsLink onClick={() => handleBasicClick('tab4')} active={basicActive === 'tab4'}>
               Salad
             </MDBTabsLink>
-          </MDBTabsItem> */}
-          {/* <MDBTabsItem>
+          </MDBTabsItem>
+          <MDBTabsItem>
             <MDBTabsLink onClick={() => handleBasicClick('tab5')} active={basicActive === 'tab5'}>
               Pastries
             </MDBTabsLink>
-          </MDBTabsItem> */}
+          </MDBTabsItem>
           <MDBTabsItem>
             <MDBTabsLink onClick={() => handleBasicClick('tab6')} active={basicActive === 'tab6'}>
               Hot Shot
             </MDBTabsLink>
           </MDBTabsItem>
-          {/* <MDBTabsItem>
+          <MDBTabsItem>
             <MDBTabsLink onClick={() => handleBasicClick('tab7')} active={basicActive === 'tab7'}>
               Food
             </MDBTabsLink>
-          </MDBTabsItem> */}
-          {/* <MDBTabsItem>
+          </MDBTabsItem>
+          <MDBTabsItem>
             <MDBTabsLink onClick={() => handleBasicClick('tab8')} active={basicActive === 'tab8'}>
               Parfait
             </MDBTabsLink>
-          </MDBTabsItem> */}
+          </MDBTabsItem>
         </MDBTabs>
 
         <MDBTabsContent>
-          {/* <MDBTabsPane show={basicActive === 'tab1'}>
+          <MDBTabsPane show={basicActive === 'tab1'}>
             
               <Products menu={yogurt} />
            
-          </MDBTabsPane> */}
+          </MDBTabsPane>
           <MDBTabsPane show={basicActive === 'tab2'}>
           <Products menu={juices} />
             </MDBTabsPane>
           <MDBTabsPane show={basicActive === 'tab3'}>
           <Products menu={specialJuices} />
           </MDBTabsPane>
-          <MDBTabsPane show={basicActive === 'tab6'}> 
-            <Products menu={hotshot} />
+          <MDBTabsPane show={basicActive === 'tab4'}> <Products menu={salad} />
           </MDBTabsPane>
-          {/* <MDBTabsPane show={basicActive === 'tab4'}> <Products menu={salad} />
-          </MDBTabsPane> */}
-          {/* <MDBTabsPane show={basicActive === 'tab5'}> <Products menu={pastries} /></MDBTabsPane> */}
-          
-          {/* <MDBTabsPane show={basicActive === 'tab7'}> <Products menu={food} /></MDBTabsPane> */}
-          {/* <MDBTabsPane show={basicActive === 'tab8'}> <Products menu={parfait} /></MDBTabsPane> */}
+          <MDBTabsPane show={basicActive === 'tab5'}> <Products menu={pastries} /></MDBTabsPane>
+          <MDBTabsPane show={basicActive === 'tab6'}> <Products menu={hotshot} /></MDBTabsPane>
+          <MDBTabsPane show={basicActive === 'tab7'}> <Products menu={food} /></MDBTabsPane>
+          <MDBTabsPane show={basicActive === 'tab8'}> <Products menu={parfait} /></MDBTabsPane>
 
         </MDBTabsContent>
       </MDBContainer>
